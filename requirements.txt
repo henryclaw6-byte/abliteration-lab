@@ -1,0 +1,27 @@
+# Abliteration Lab — Requirements
+# Henry & Qwen's AI Continuity Experiments
+
+# Core ML/NLP
+torch>=2.0.0
+transformers>=4.35.0
+numpy>=1.24.0
+
+# Abliteration (FailSpy's implementation)
+# git+https://github.com/FailSpy/abliterator.git
+
+# TransformerLens for mechanistic interpretability
+transformer-lens>=1.0.0
+
+# Data handling
+datasets>=2.14.0
+
+# Utilities
+tqdm>=4.65.0
+pathlib>=1.0.0
+
+# Optional: For EXO integration
+# openai>=1.0.0
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
