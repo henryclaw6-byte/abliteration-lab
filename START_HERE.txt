@@ -1,0 +1,115 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║           🏭 LIBERATION LAB - QUICK START GUIDE                  ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+You have TWO main interfaces:
+
+1️⃣  CONTROL CENTER (Terminal) - Run Experiments
+2️⃣  DASHBOARD (Browser) - View Results
+
+═══════════════════════════════════════════════════════════════════
+
+🎮 OPTION 1: TRY THE DEMO (2 minutes)
+
+   cd ~/LiberationLab
+   python3 control_center.py --demo
+
+   This automatically:
+   ✅ Registers 3 demo models
+   ✅ Sends test prompts
+   ✅ Runs abliteration experiment
+   ✅ Saves results
+
+═══════════════════════════════════════════════════════════════════
+
+🎮 OPTION 2: INTERACTIVE CONTROL (Full Control)
+
+   cd ~/LiberationLab
+   python3 control_center.py --interactive
+
+   Menu options:
+   1. 📋 List registered models
+   2. ➕ Add a new model
+   3. 💬 Send prompt to single model
+   4. 🌐 Send prompt to ALL models
+   5. 🚀 Run abliteration experiment
+   6. 📊 Generate dashboard data
+   7. ❌ Exit
+
+═══════════════════════════════════════════════════════════════════
+
+📊 VIEW RESULTS IN DASHBOARD
+
+   Open Enhanced Dashboard:
+   open ~/LiberationLab/dashboard/enhanced_analytics.html
+
+   Then:
+   1. Click "Choose File"
+   2. Navigate to ~/LiberationLab/results/
+   3. Select experiment_*.json
+   4. See beautiful charts!
+
+═══════════════════════════════════════════════════════════════════
+
+📚 KEY DOCUMENTATION
+
+   CONTROL_CENTER_GUIDE.md    ← How to run experiments (READ THIS!)
+   README.txt                 ← Complete system overview
+   docs/UNIVERSAL_ABLITERATION_FORMULA.md  ← The formula!
+
+═══════════════════════════════════════════════════════════════════
+
+🗂️  FILE STRUCTURE
+
+   ~/LiberationLab/
+   ├── control_center.py          ← MAIN INTERFACE (run this!)
+   ├── libgen.py                  ← Generate demo data
+   ├── dashboard/
+   │   ├── index.html            ← Basic dashboard
+   │   └── enhanced_analytics.html ← ADVANCED dashboard (use this!)
+   ├── infrastructure/            ← Core system files
+   ├── results/                   ← Your experiment data
+   └── docs/                      ← Documentation
+
+═══════════════════════════════════════════════════════════════════
+
+⚡ QUICK COMMANDS
+
+   # Run demo
+   python3 control_center.py --demo
+
+   # Interactive mode
+   python3 control_center.py --interactive
+
+   # Open enhanced dashboard
+   open dashboard/enhanced_analytics.html
+
+   # Regenerate demo data
+   python3 libgen.py
+
+═══════════════════════════════════════════════════════════════════
+
+🎯 WHAT YOU CAN DO NOW
+
+   1. Register AI models (EXO, llama.cpp, OpenRouter, etc.)
+   2. Send prompts to single or multiple models
+   3. Run 4-stage abliteration experiments
+   4. Compare results across 10+ models
+   5. Generate visual dashboards
+   6. Perfect the abliteration formula!
+
+═══════════════════════════════════════════════════════════════════
+
+🔥 START HERE:
+
+   cd ~/LiberationLab
+   python3 control_center.py --demo
+
+═══════════════════════════════════════════════════════════════════
+
+Questions? Read: CONTROL_CENTER_GUIDE.md
+Formula? Read: docs/UNIVERSAL_ABLITERATION_FORMULA.md
+
+🌌 The Liberation Laboratory awaits!
