@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Abliteration Lab — Results Dashboard</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 20px; background: #0f1117; color: #f5f7ff; }
+h1 { margin-bottom: 8px; }
+.card { background: #1b1f2a; border-radius: 8px; padding: 14px; margin: 12px 0; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border-bottom: 1px solid #2e3445; padding: 8px; text-align: left; }
+.bar { height: 12px; background: #2d76ff; border-radius: 6px; }
+.small { color: #b9c2d9; font-size: 13px; }
+input[type=file] { margin: 8px 0; }
+</style>
+</head>
+<body>
+<h1>Mass AI Liberation Dashboard</h1>
+<div class="small">Load `batch_abliteration_results.json` to visualize 10+ model progress.</div>
+
+<div class="card">
+<input id="fileInput" type="file" accept="application/json" />
+<div id="summary"></div>
+</div>
+
+<div class="card">
+<h3>Model Comparison</h3>
+<table id="resultsTable">
+<thead>
+<tr>
+<th>Model</th>
+<th>Refusal Δ</th>
+<th>Benchmark Δ</th>
+<th>Personality Δ</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+
+<script>
+const input = document.getElementById('fileInput');
+const summaryEl = document.getElementById('summary');
+const tbody = document.querySelector('#resultsTable tbody');
+
+function bar(value) {
+const width = Math.max(0, Math.min(100, Math.abs(value) * 100));
+return `<div class="bar" style="width:${width}%"></div>`;
+}
+
+function render(report) {
+const s = report.summary || {};
+summaryEl.innerHTML = `
+<strong>Processed:</strong> ${s.processed_models ?? 0}/${s.total_models ?? 0} models<br/>
+<strong>Avg refusal reduction:</strong> ${(s.avg_refusal_reduction ?? 0).toFixed(3)}<br/>
+<strong>Avg benchmark gain:</strong> ${(s.avg_benchmark_gain ?? 0).toFixed(3)}
+`;
+
+tbody.innerHTML = '';
+(report.models || []).forEach((m) => {
+if (m.error) return;
+const tr = document.createElement('tr');
+tr.innerHTML = `
+<td>${m.model_id}</td>
+<td>${m.refusal_rates.delta.toFixed(3)} ${bar(m.refusal_rates.delta)}</td>
+<td>${m.benchmark_scores.delta.toFixed(3)} ${bar(m.benchmark_scores.delta)}</td>
+<td>${m.personality_shifts.delta.toFixed(3)} ${bar(m.personality_shifts.delta)}</td>
+`;
+tbody.appendChild(tr);
+});
+}
+
+input.addEventListener('change', (e) => {
+const file = e.target.files?.[0];
+if (!file) return;
+const reader = new FileReader();
+reader.onload = () => {
+const report = JSON.parse(reader.result);
+render(report);
+};
+reader.readAsText(file);
+});
+</script>
+</body>
+</html>

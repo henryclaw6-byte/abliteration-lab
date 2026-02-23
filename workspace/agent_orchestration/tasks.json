@@ -1,0 +1,642 @@
+{
+  "task_03dfbcaaaeea": {
+    "completed_at": "2026-02-23T04:05:27.792290+00:00",
+    "created_at": "2026-02-23T04:05:27.785693+00:00",
+    "created_by": "workflow:liberated_model_06",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_06",
+      "stage": "validation_test"
+    },
+    "status": "completed",
+    "task_id": "task_03dfbcaaaeea",
+    "title": "validation_test:liberated_model_06"
+  },
+  "task_0e16142570d1": {
+    "completed_at": "2026-02-23T04:05:27.767767+00:00",
+    "created_at": "2026-02-23T04:05:27.767211+00:00",
+    "created_by": "workflow:liberated_model_00",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_00",
+      "stage": "baseline_test"
+    },
+    "status": "completed",
+    "task_id": "task_0e16142570d1",
+    "title": "baseline_test:liberated_model_00"
+  },
+  "task_112cc06ff9b4": {
+    "completed_at": "2026-02-23T04:05:27.791932+00:00",
+    "created_at": "2026-02-23T04:05:27.785324+00:00",
+    "created_by": "workflow:liberated_model_05",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_05",
+      "stage": "validation_test"
+    },
+    "status": "completed",
+    "task_id": "task_112cc06ff9b4",
+    "title": "validation_test:liberated_model_05"
+  },
+  "task_169b271e12ac": {
+    "completed_at": "2026-02-23T04:05:27.774274+00:00",
+    "created_at": "2026-02-23T04:05:27.769796+00:00",
+    "created_by": "workflow:liberated_model_06",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_06",
+      "stage": "baseline_test"
+    },
+    "status": "completed",
+    "task_id": "task_169b271e12ac",
+    "title": "baseline_test:liberated_model_06"
+  },
+  "task_1711e4be834f": {
+    "completed_at": "2026-02-23T04:05:27.780895+00:00",
+    "created_at": "2026-02-23T04:05:27.775193+00:00",
+    "created_by": "workflow:liberated_model_09",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_09",
+      "stage": "abliteration"
+    },
+    "status": "completed",
+    "task_id": "task_1711e4be834f",
+    "title": "abliteration:liberated_model_09"
+  },
+  "task_21580aad9ef8": {
+    "completed_at": "2026-02-23T04:05:27.791212+00:00",
+    "created_at": "2026-02-23T04:05:27.784629+00:00",
+    "created_by": "workflow:liberated_model_03",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_03",
+      "stage": "validation_test"
+    },
+    "status": "completed",
+    "task_id": "task_21580aad9ef8",
+    "title": "validation_test:liberated_model_03"
+  },
+  "task_239d72d70240": {
+    "completed_at": "2026-02-23T04:05:27.803820+00:00",
+    "created_at": "2026-02-23T04:05:27.795905+00:00",
+    "created_by": "workflow:liberated_model_06",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_06",
+      "stage": "comparison"
+    },
+    "status": "completed",
+    "task_id": "task_239d72d70240",
+    "title": "comparison:liberated_model_06"
+  },
+  "task_2e788f11d954": {
+    "completed_at": "2026-02-23T04:05:27.782088+00:00",
+    "created_at": "2026-02-23T04:05:27.776294+00:00",
+    "created_by": "workflow:liberated_model_04",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_04",
+      "stage": "abliteration"
+    },
+    "status": "completed",
+    "task_id": "task_2e788f11d954",
+    "title": "abliteration:liberated_model_04"
+  },
+  "task_31b454ce0463": {
+    "completed_at": "2026-02-23T04:05:27.768194+00:00",
+    "created_at": "2026-02-23T04:05:27.767892+00:00",
+    "created_by": "workflow:liberated_model_00",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_00",
+      "stage": "abliteration"
+    },
+    "status": "completed",
+    "task_id": "task_31b454ce0463",
+    "title": "abliteration:liberated_model_00"
+  },
+  "task_37e5af8af0b5": {
+    "completed_at": "2026-02-23T04:05:27.792681+00:00",
+    "created_at": "2026-02-23T04:05:27.786065+00:00",
+    "created_by": "workflow:liberated_model_07",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_07",
+      "stage": "validation_test"
+    },
+    "status": "completed",
+    "task_id": "task_37e5af8af0b5",
+    "title": "validation_test:liberated_model_07"
+  },
+  "task_44a7c54ba855": {
+    "completed_at": "2026-02-23T04:05:27.790504+00:00",
+    "created_at": "2026-02-23T04:05:27.783939+00:00",
+    "created_by": "workflow:liberated_model_01",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_01",
+      "stage": "validation_test"
+    },
+    "status": "completed",
+    "task_id": "task_44a7c54ba855",
+    "title": "validation_test:liberated_model_01"
+  },
+  "task_4b7aaf2a9526": {
+    "completed_at": "2026-02-23T04:05:27.802114+00:00",
+    "created_at": "2026-02-23T04:05:27.794280+00:00",
+    "created_by": "workflow:liberated_model_02",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_02",
+      "stage": "comparison"
+    },
+    "status": "completed",
+    "task_id": "task_4b7aaf2a9526",
+    "title": "comparison:liberated_model_02"
+  },
+  "task_4fef7fe142b8": {
+    "completed_at": "2026-02-23T04:05:27.802549+00:00",
+    "created_at": "2026-02-23T04:05:27.794683+00:00",
+    "created_by": "workflow:liberated_model_03",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_03",
+      "stage": "comparison"
+    },
+    "status": "completed",
+    "task_id": "task_4fef7fe142b8",
+    "title": "comparison:liberated_model_03"
+  },
+  "task_717e01af65f9": {
+    "completed_at": "2026-02-23T04:05:27.801690+00:00",
+    "created_at": "2026-02-23T04:05:27.793857+00:00",
+    "created_by": "workflow:liberated_model_01",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_01",
+      "stage": "comparison"
+    },
+    "status": "completed",
+    "task_id": "task_717e01af65f9",
+    "title": "comparison:liberated_model_01"
+  },
+  "task_764e3059845f": {
+    "completed_at": "2026-02-23T04:05:27.773813+00:00",
+    "created_at": "2026-02-23T04:05:27.769334+00:00",
+    "created_by": "workflow:liberated_model_04",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_04",
+      "stage": "baseline_test"
+    },
+    "status": "completed",
+    "task_id": "task_764e3059845f",
+    "title": "baseline_test:liberated_model_04"
+  },
+  "task_781a24b082ad": {
+    "completed_at": "2026-02-23T04:05:27.774045+00:00",
+    "created_at": "2026-02-23T04:05:27.769542+00:00",
+    "created_by": "workflow:liberated_model_05",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_05",
+      "stage": "baseline_test"
+    },
+    "status": "completed",
+    "task_id": "task_781a24b082ad",
+    "title": "baseline_test:liberated_model_05"
+  },
+  "task_7fa39c99f2ef": {
+    "completed_at": "2026-02-23T04:05:27.790855+00:00",
+    "created_at": "2026-02-23T04:05:27.784279+00:00",
+    "created_by": "workflow:liberated_model_02",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_02",
+      "stage": "validation_test"
+    },
+    "status": "completed",
+    "task_id": "task_7fa39c99f2ef",
+    "title": "validation_test:liberated_model_02"
+  },
+  "task_7ffad656a5bd": {
+    "completed_at": "2026-02-23T04:05:27.791564+00:00",
+    "created_at": "2026-02-23T04:05:27.784970+00:00",
+    "created_by": "workflow:liberated_model_04",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_04",
+      "stage": "validation_test"
+    },
+    "status": "completed",
+    "task_id": "task_7ffad656a5bd",
+    "title": "validation_test:liberated_model_04"
+  },
+  "task_826abf26dec6": {
+    "completed_at": "2026-02-23T04:05:27.803393+00:00",
+    "created_at": "2026-02-23T04:05:27.795499+00:00",
+    "created_by": "workflow:liberated_model_05",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_05",
+      "stage": "comparison"
+    },
+    "status": "completed",
+    "task_id": "task_826abf26dec6",
+    "title": "comparison:liberated_model_05"
+  },
+  "task_826b2e387792": {
+    "completed_at": "2026-02-23T04:05:27.772685+00:00",
+    "created_at": "2026-02-23T04:05:27.768559+00:00",
+    "created_by": "workflow:liberated_model_08",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_08",
+      "stage": "baseline_test"
+    },
+    "status": "completed",
+    "task_id": "task_826b2e387792",
+    "title": "baseline_test:liberated_model_08"
+  },
+  "task_8d3ec0c6366f": {
+    "completed_at": "2026-02-23T04:05:27.790143+00:00",
+    "created_at": "2026-02-23T04:05:27.783625+00:00",
+    "created_by": "workflow:liberated_model_09",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_09",
+      "stage": "validation_test"
+    },
+    "status": "completed",
+    "task_id": "task_8d3ec0c6366f",
+    "title": "validation_test:liberated_model_09"
+  },
+  "task_8e597608644c": {
+    "completed_at": "2026-02-23T04:05:27.781500+00:00",
+    "created_at": "2026-02-23T04:05:27.775719+00:00",
+    "created_by": "workflow:liberated_model_02",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_02",
+      "stage": "abliteration"
+    },
+    "status": "completed",
+    "task_id": "task_8e597608644c",
+    "title": "abliteration:liberated_model_02"
+  },
+  "task_97aede8b6389": {
+    "completed_at": "2026-02-23T04:05:27.773136+00:00",
+    "created_at": "2026-02-23T04:05:27.768865+00:00",
+    "created_by": "workflow:liberated_model_01",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_01",
+      "stage": "baseline_test"
+    },
+    "status": "completed",
+    "task_id": "task_97aede8b6389",
+    "title": "baseline_test:liberated_model_01"
+  },
+  "task_9f5cbc5e94d6": {
+    "completed_at": "2026-02-23T04:05:27.782684+00:00",
+    "created_at": "2026-02-23T04:05:27.776898+00:00",
+    "created_by": "workflow:liberated_model_06",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_06",
+      "stage": "abliteration"
+    },
+    "status": "completed",
+    "task_id": "task_9f5cbc5e94d6",
+    "title": "abliteration:liberated_model_06"
+  },
+  "task_a294842c6282": {
+    "completed_at": "2026-02-23T04:05:27.804241+00:00",
+    "created_at": "2026-02-23T04:05:27.796336+00:00",
+    "created_by": "workflow:liberated_model_07",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_07",
+      "stage": "comparison"
+    },
+    "status": "completed",
+    "task_id": "task_a294842c6282",
+    "title": "comparison:liberated_model_07"
+  },
+  "task_a967600b103f": {
+    "completed_at": "2026-02-23T04:05:27.801270+00:00",
+    "created_at": "2026-02-23T04:05:27.793421+00:00",
+    "created_by": "workflow:liberated_model_09",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_09",
+      "stage": "comparison"
+    },
+    "status": "completed",
+    "task_id": "task_a967600b103f",
+    "title": "comparison:liberated_model_09"
+  },
+  "task_b421b3767258": {
+    "completed_at": "2026-02-23T04:05:27.800733+00:00",
+    "created_at": "2026-02-23T04:05:27.793040+00:00",
+    "created_by": "workflow:liberated_model_08",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_08",
+      "stage": "comparison"
+    },
+    "status": "completed",
+    "task_id": "task_b421b3767258",
+    "title": "comparison:liberated_model_08"
+  },
+  "task_b87636c164d2": {
+    "completed_at": "2026-02-23T04:05:27.780601+00:00",
+    "created_at": "2026-02-23T04:05:27.774953+00:00",
+    "created_by": "workflow:liberated_model_08",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_08",
+      "stage": "abliteration"
+    },
+    "status": "completed",
+    "task_id": "task_b87636c164d2",
+    "title": "abliteration:liberated_model_08"
+  },
+  "task_b9b150efd979": {
+    "completed_at": "2026-02-23T04:05:27.773359+00:00",
+    "created_at": "2026-02-23T04:05:27.769018+00:00",
+    "created_by": "workflow:liberated_model_02",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_02",
+      "stage": "baseline_test"
+    },
+    "status": "completed",
+    "task_id": "task_b9b150efd979",
+    "title": "baseline_test:liberated_model_02"
+  },
+  "task_bc02fddde57a": {
+    "completed_at": "2026-02-23T04:05:27.782983+00:00",
+    "created_at": "2026-02-23T04:05:27.777267+00:00",
+    "created_by": "workflow:liberated_model_07",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_07",
+      "stage": "abliteration"
+    },
+    "status": "completed",
+    "task_id": "task_bc02fddde57a",
+    "title": "abliteration:liberated_model_07"
+  },
+  "task_bf52406650d6": {
+    "completed_at": "2026-02-23T04:05:27.777606+00:00",
+    "created_at": "2026-02-23T04:05:27.772462+00:00",
+    "created_by": "workflow:liberated_model_00",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_00",
+      "stage": "comparison"
+    },
+    "status": "completed",
+    "task_id": "task_bf52406650d6",
+    "title": "comparison:liberated_model_00"
+  },
+  "task_c22df9451df5": {
+    "completed_at": "2026-02-23T04:05:27.773587+00:00",
+    "created_at": "2026-02-23T04:05:27.769171+00:00",
+    "created_by": "workflow:liberated_model_03",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_03",
+      "stage": "baseline_test"
+    },
+    "status": "completed",
+    "task_id": "task_c22df9451df5",
+    "title": "baseline_test:liberated_model_03"
+  },
+  "task_c9a39be735f9": {
+    "completed_at": "2026-02-23T04:05:27.772907+00:00",
+    "created_at": "2026-02-23T04:05:27.768705+00:00",
+    "created_by": "workflow:liberated_model_09",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_09",
+      "stage": "baseline_test"
+    },
+    "status": "completed",
+    "task_id": "task_c9a39be735f9",
+    "title": "baseline_test:liberated_model_09"
+  },
+  "task_e3bdce3d73fc": {
+    "completed_at": "2026-02-23T04:05:27.770241+00:00",
+    "created_at": "2026-02-23T04:05:27.768306+00:00",
+    "created_by": "workflow:liberated_model_00",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_00",
+      "stage": "validation_test"
+    },
+    "status": "completed",
+    "task_id": "task_e3bdce3d73fc",
+    "title": "validation_test:liberated_model_00"
+  },
+  "task_e41f42220baf": {
+    "completed_at": "2026-02-23T04:05:27.781794+00:00",
+    "created_at": "2026-02-23T04:05:27.776003+00:00",
+    "created_by": "workflow:liberated_model_03",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_03",
+      "stage": "abliteration"
+    },
+    "status": "completed",
+    "task_id": "task_e41f42220baf",
+    "title": "abliteration:liberated_model_03"
+  },
+  "task_e5b369a13720": {
+    "completed_at": "2026-02-23T04:05:27.781203+00:00",
+    "created_at": "2026-02-23T04:05:27.775464+00:00",
+    "created_by": "workflow:liberated_model_01",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_01",
+      "stage": "abliteration"
+    },
+    "status": "completed",
+    "task_id": "task_e5b369a13720",
+    "title": "abliteration:liberated_model_01"
+  },
+  "task_f034df7a8813": {
+    "completed_at": "2026-02-23T04:05:27.774513+00:00",
+    "created_at": "2026-02-23T04:05:27.770009+00:00",
+    "created_by": "workflow:liberated_model_07",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_07",
+      "stage": "baseline_test"
+    },
+    "status": "completed",
+    "task_id": "task_f034df7a8813",
+    "title": "baseline_test:liberated_model_07"
+  },
+  "task_f42f1b3abafa": {
+    "completed_at": "2026-02-23T04:05:27.782383+00:00",
+    "created_at": "2026-02-23T04:05:27.776579+00:00",
+    "created_by": "workflow:liberated_model_05",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_05",
+      "stage": "abliteration"
+    },
+    "status": "completed",
+    "task_id": "task_f42f1b3abafa",
+    "title": "abliteration:liberated_model_05"
+  },
+  "task_fae7e1dab823": {
+    "completed_at": "2026-02-23T04:05:27.802970+00:00",
+    "created_at": "2026-02-23T04:05:27.795093+00:00",
+    "created_by": "workflow:liberated_model_04",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_04",
+      "stage": "comparison"
+    },
+    "status": "completed",
+    "task_id": "task_fae7e1dab823",
+    "title": "comparison:liberated_model_04"
+  },
+  "task_ff52d9caa0b8": {
+    "completed_at": "2026-02-23T04:05:27.789783+00:00",
+    "created_at": "2026-02-23T04:05:27.783306+00:00",
+    "created_by": "workflow:liberated_model_08",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "liberated_model_08",
+      "stage": "validation_test"
+    },
+    "status": "completed",
+    "task_id": "task_ff52d9caa0b8",
+    "title": "validation_test:liberated_model_08"
+  }
+}

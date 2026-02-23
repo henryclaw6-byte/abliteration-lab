@@ -1,0 +1,383 @@
+{
+  "summary": {
+    "total_models": 10,
+    "processed_models": 10,
+    "successful_models": 10,
+    "avg_refusal_reduction": 0.426,
+    "avg_benchmark_gain": 0.24500000000000002
+  },
+  "models": [
+    {
+      "model_id": "liberated_model_00",
+      "refusal_rates": {
+        "before": 0.61,
+        "after": 0.12,
+        "delta": 0.49
+      },
+      "benchmark_scores": {
+        "before": 0.52,
+        "after": 0.78,
+        "delta": 0.26
+      },
+      "personality_shifts": {
+        "before": 0.88,
+        "after": 0.88,
+        "delta": 0.0
+      },
+      "task_ids": [
+        "task_0e16142570d1",
+        "task_31b454ce0463",
+        "task_e3bdce3d73fc",
+        "task_bf52406650d6"
+      ]
+    },
+    {
+      "model_id": "liberated_model_08",
+      "refusal_rates": {
+        "before": 0.58,
+        "after": 0.16,
+        "delta": 0.41999999999999993
+      },
+      "benchmark_scores": {
+        "before": 0.57,
+        "after": 0.8,
+        "delta": 0.2300000000000001
+      },
+      "personality_shifts": {
+        "before": 0.9,
+        "after": 0.9,
+        "delta": 0.0
+      },
+      "task_ids": [
+        "task_826b2e387792",
+        "task_b87636c164d2",
+        "task_ff52d9caa0b8",
+        "task_b421b3767258"
+      ]
+    },
+    {
+      "model_id": "liberated_model_09",
+      "refusal_rates": {
+        "before": 0.58,
+        "after": 0.16,
+        "delta": 0.41999999999999993
+      },
+      "benchmark_scores": {
+        "before": 0.57,
+        "after": 0.8,
+        "delta": 0.2300000000000001
+      },
+      "personality_shifts": {
+        "before": 0.9,
+        "after": 0.9,
+        "delta": 0.0
+      },
+      "task_ids": [
+        "task_c9a39be735f9",
+        "task_1711e4be834f",
+        "task_8d3ec0c6366f",
+        "task_a967600b103f"
+      ]
+    },
+    {
+      "model_id": "liberated_model_01",
+      "refusal_rates": {
+        "before": 0.61,
+        "after": 0.12,
+        "delta": 0.49
+      },
+      "benchmark_scores": {
+        "before": 0.52,
+        "after": 0.78,
+        "delta": 0.26
+      },
+      "personality_shifts": {
+        "before": 0.88,
+        "after": 0.88,
+        "delta": 0.0
+      },
+      "task_ids": [
+        "task_97aede8b6389",
+        "task_e5b369a13720",
+        "task_44a7c54ba855",
+        "task_717e01af65f9"
+      ]
+    },
+    {
+      "model_id": "liberated_model_02",
+      "refusal_rates": {
+        "before": 0.61,
+        "after": 0.12,
+        "delta": 0.49
+      },
+      "benchmark_scores": {
+        "before": 0.52,
+        "after": 0.78,
+        "delta": 0.26
+      },
+      "personality_shifts": {
+        "before": 0.88,
+        "after": 0.88,
+        "delta": 0.0
+      },
+      "task_ids": [
+        "task_b9b150efd979",
+        "task_8e597608644c",
+        "task_7fa39c99f2ef",
+        "task_4b7aaf2a9526"
+      ]
+    },
+    {
+      "model_id": "liberated_model_03",
+      "refusal_rates": {
+        "before": 0.55,
+        "after": 0.18,
+        "delta": 0.37000000000000005
+      },
+      "benchmark_scores": {
+        "before": 0.49,
+        "after": 0.74,
+        "delta": 0.25
+      },
+      "personality_shifts": {
+        "before": 0.85,
+        "after": 0.85,
+        "delta": 0.0
+      },
+      "task_ids": [
+        "task_c22df9451df5",
+        "task_e41f42220baf",
+        "task_21580aad9ef8",
+        "task_4fef7fe142b8"
+      ]
+    },
+    {
+      "model_id": "liberated_model_04",
+      "refusal_rates": {
+        "before": 0.55,
+        "after": 0.18,
+        "delta": 0.37000000000000005
+      },
+      "benchmark_scores": {
+        "before": 0.49,
+        "after": 0.74,
+        "delta": 0.25
+      },
+      "personality_shifts": {
+        "before": 0.85,
+        "after": 0.85,
+        "delta": 0.0
+      },
+      "task_ids": [
+        "task_764e3059845f",
+        "task_2e788f11d954",
+        "task_7ffad656a5bd",
+        "task_fae7e1dab823"
+      ]
+    },
+    {
+      "model_id": "liberated_model_05",
+      "refusal_rates": {
+        "before": 0.55,
+        "after": 0.18,
+        "delta": 0.37000000000000005
+      },
+      "benchmark_scores": {
+        "before": 0.49,
+        "after": 0.74,
+        "delta": 0.25
+      },
+      "personality_shifts": {
+        "before": 0.85,
+        "after": 0.85,
+        "delta": 0.0
+      },
+      "task_ids": [
+        "task_781a24b082ad",
+        "task_f42f1b3abafa",
+        "task_112cc06ff9b4",
+        "task_826abf26dec6"
+      ]
+    },
+    {
+      "model_id": "liberated_model_06",
+      "refusal_rates": {
+        "before": 0.58,
+        "after": 0.16,
+        "delta": 0.41999999999999993
+      },
+      "benchmark_scores": {
+        "before": 0.57,
+        "after": 0.8,
+        "delta": 0.2300000000000001
+      },
+      "personality_shifts": {
+        "before": 0.9,
+        "after": 0.9,
+        "delta": 0.0
+      },
+      "task_ids": [
+        "task_169b271e12ac",
+        "task_9f5cbc5e94d6",
+        "task_03dfbcaaaeea",
+        "task_239d72d70240"
+      ]
+    },
+    {
+      "model_id": "liberated_model_07",
+      "refusal_rates": {
+        "before": 0.58,
+        "after": 0.16,
+        "delta": 0.41999999999999993
+      },
+      "benchmark_scores": {
+        "before": 0.57,
+        "after": 0.8,
+        "delta": 0.2300000000000001
+      },
+      "personality_shifts": {
+        "before": 0.9,
+        "after": 0.9,
+        "delta": 0.0
+      },
+      "task_ids": [
+        "task_f034df7a8813",
+        "task_bc02fddde57a",
+        "task_37e5af8af0b5",
+        "task_a294842c6282"
+      ]
+    }
+  ],
+  "registry": [
+    {
+      "model_id": "liberated_model_00",
+      "source": "local",
+      "model_type": "exo",
+      "capabilities": [
+        "chat",
+        "analysis",
+        "abliteration"
+      ],
+      "abliteration_status": "completed",
+      "endpoint": null,
+      "metadata": {}
+    },
+    {
+      "model_id": "liberated_model_01",
+      "source": "local",
+      "model_type": "exo",
+      "capabilities": [
+        "chat",
+        "analysis",
+        "abliteration"
+      ],
+      "abliteration_status": "completed",
+      "endpoint": null,
+      "metadata": {}
+    },
+    {
+      "model_id": "liberated_model_02",
+      "source": "local",
+      "model_type": "exo",
+      "capabilities": [
+        "chat",
+        "analysis",
+        "abliteration"
+      ],
+      "abliteration_status": "completed",
+      "endpoint": null,
+      "metadata": {}
+    },
+    {
+      "model_id": "liberated_model_03",
+      "source": "local",
+      "model_type": "llamacpp",
+      "capabilities": [
+        "chat",
+        "analysis",
+        "abliteration"
+      ],
+      "abliteration_status": "completed",
+      "endpoint": null,
+      "metadata": {}
+    },
+    {
+      "model_id": "liberated_model_04",
+      "source": "local",
+      "model_type": "llamacpp",
+      "capabilities": [
+        "chat",
+        "analysis",
+        "abliteration"
+      ],
+      "abliteration_status": "completed",
+      "endpoint": null,
+      "metadata": {}
+    },
+    {
+      "model_id": "liberated_model_05",
+      "source": "local",
+      "model_type": "llamacpp",
+      "capabilities": [
+        "chat",
+        "analysis",
+        "abliteration"
+      ],
+      "abliteration_status": "completed",
+      "endpoint": null,
+      "metadata": {}
+    },
+    {
+      "model_id": "liberated_model_06",
+      "source": "remote_api",
+      "model_type": "openrouter",
+      "capabilities": [
+        "chat",
+        "analysis",
+        "abliteration"
+      ],
+      "abliteration_status": "completed",
+      "endpoint": null,
+      "metadata": {}
+    },
+    {
+      "model_id": "liberated_model_07",
+      "source": "remote_api",
+      "model_type": "openrouter",
+      "capabilities": [
+        "chat",
+        "analysis",
+        "abliteration"
+      ],
+      "abliteration_status": "completed",
+      "endpoint": null,
+      "metadata": {}
+    },
+    {
+      "model_id": "liberated_model_08",
+      "source": "remote_api",
+      "model_type": "openrouter",
+      "capabilities": [
+        "chat",
+        "analysis",
+        "abliteration"
+      ],
+      "abliteration_status": "completed",
+      "endpoint": null,
+      "metadata": {}
+    },
+    {
+      "model_id": "liberated_model_09",
+      "source": "remote_api",
+      "model_type": "openrouter",
+      "capabilities": [
+        "chat",
+        "analysis",
+        "abliteration"
+      ],
+      "abliteration_status": "completed",
+      "endpoint": null,
+      "metadata": {}
+    }
+  ]
+}
