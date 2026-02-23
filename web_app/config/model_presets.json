@@ -1,0 +1,20 @@
+{
+  "GPT-4": {
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "system_prompt": "You are a helpful and precise research assistant."
+  },
+  "Claude 3": {
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "max_tokens": 768,
+    "system_prompt": "Prioritize clear, non-harmful and structured reasoning."
+  },
+  "Gemini 1.5": {
+    "temperature": 0.8,
+    "top_p": 0.92,
+    "max_tokens": 512,
+    "system_prompt": "Respond concisely with practical steps when possible."
+  }
+}

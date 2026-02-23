@@ -118,3 +118,27 @@
 {"event_id": "event_900d235919", "timestamp": "2026-02-23T04:05:27.803696+00:00", "type": "task_completed", "task_id": "task_826abf26dec6", "actor": "workflow:liberated_model_05", "metadata": {}}
 {"event_id": "event_4bd8ee126e", "timestamp": "2026-02-23T04:05:27.804129+00:00", "type": "task_completed", "task_id": "task_239d72d70240", "actor": "workflow:liberated_model_06", "metadata": {}}
 {"event_id": "event_18213ceb7b", "timestamp": "2026-02-23T04:05:27.804545+00:00", "type": "task_completed", "task_id": "task_a294842c6282", "actor": "workflow:liberated_model_07", "metadata": {}}
+{"event_id": "event_c8293bd972", "timestamp": "2026-02-23T04:38:33.061133+00:00", "type": "task_created", "task_id": "task_bd0bd2d1d828", "actor": "workflow:demo_exo", "metadata": {"title": "baseline_test:demo_exo"}}
+{"event_id": "event_c7f4c5785c", "timestamp": "2026-02-23T04:38:33.063366+00:00", "type": "task_created", "task_id": "task_dd3c67721d2f", "actor": "workflow:demo_llama", "metadata": {"title": "baseline_test:demo_llama"}}
+{"event_id": "event_98dd822143", "timestamp": "2026-02-23T04:38:33.065195+00:00", "type": "task_claimed", "task_id": "task_bd0bd2d1d828", "actor": "workflow:demo_exo", "metadata": {}}
+{"event_id": "event_27c2bf9dc9", "timestamp": "2026-02-23T04:38:33.066793+00:00", "type": "task_claimed", "task_id": "task_dd3c67721d2f", "actor": "workflow:demo_llama", "metadata": {}}
+{"event_id": "event_f61db9bcbd", "timestamp": "2026-02-23T04:38:33.068297+00:00", "type": "task_completed", "task_id": "task_bd0bd2d1d828", "actor": "workflow:demo_exo", "metadata": {}}
+{"event_id": "event_ed1c9c8c94", "timestamp": "2026-02-23T04:38:33.069795+00:00", "type": "task_completed", "task_id": "task_dd3c67721d2f", "actor": "workflow:demo_llama", "metadata": {}}
+{"event_id": "event_141e41d38b", "timestamp": "2026-02-23T04:38:33.071183+00:00", "type": "task_created", "task_id": "task_4199f1e11852", "actor": "workflow:demo_exo", "metadata": {"title": "abliteration:demo_exo"}}
+{"event_id": "event_44752cb8bf", "timestamp": "2026-02-23T04:38:33.072468+00:00", "type": "task_created", "task_id": "task_62d623ea8c11", "actor": "workflow:demo_llama", "metadata": {"title": "abliteration:demo_llama"}}
+{"event_id": "event_55aebe272b", "timestamp": "2026-02-23T04:38:33.073733+00:00", "type": "task_claimed", "task_id": "task_4199f1e11852", "actor": "workflow:demo_exo", "metadata": {}}
+{"event_id": "event_71539f7cfb", "timestamp": "2026-02-23T04:38:33.074868+00:00", "type": "task_claimed", "task_id": "task_62d623ea8c11", "actor": "workflow:demo_llama", "metadata": {}}
+{"event_id": "event_70148d3a82", "timestamp": "2026-02-23T04:38:33.075975+00:00", "type": "task_completed", "task_id": "task_4199f1e11852", "actor": "workflow:demo_exo", "metadata": {}}
+{"event_id": "event_66974a14c2", "timestamp": "2026-02-23T04:38:33.077125+00:00", "type": "task_completed", "task_id": "task_62d623ea8c11", "actor": "workflow:demo_llama", "metadata": {}}
+{"event_id": "event_aba23ff741", "timestamp": "2026-02-23T04:38:33.078395+00:00", "type": "task_created", "task_id": "task_822a1e9a70b4", "actor": "workflow:demo_exo", "metadata": {"title": "validation_test:demo_exo"}}
+{"event_id": "event_5c74c458f3", "timestamp": "2026-02-23T04:38:33.079515+00:00", "type": "task_created", "task_id": "task_3eb0d6e4fcb9", "actor": "workflow:demo_llama", "metadata": {"title": "validation_test:demo_llama"}}
+{"event_id": "event_e54b7b94da", "timestamp": "2026-02-23T04:38:33.080644+00:00", "type": "task_claimed", "task_id": "task_822a1e9a70b4", "actor": "workflow:demo_exo", "metadata": {}}
+{"event_id": "event_81546c46cc", "timestamp": "2026-02-23T04:38:33.081736+00:00", "type": "task_claimed", "task_id": "task_3eb0d6e4fcb9", "actor": "workflow:demo_llama", "metadata": {}}
+{"event_id": "event_0b8731f514", "timestamp": "2026-02-23T04:38:33.082833+00:00", "type": "task_completed", "task_id": "task_822a1e9a70b4", "actor": "workflow:demo_exo", "metadata": {}}
+{"event_id": "event_231fb3056b", "timestamp": "2026-02-23T04:38:33.083850+00:00", "type": "task_completed", "task_id": "task_3eb0d6e4fcb9", "actor": "workflow:demo_llama", "metadata": {}}
+{"event_id": "event_38210fb8a8", "timestamp": "2026-02-23T04:38:33.084850+00:00", "type": "task_created", "task_id": "task_6bbb7b1a344e", "actor": "workflow:demo_llama", "metadata": {"title": "comparison:demo_llama"}}
+{"event_id": "event_d40d49c282", "timestamp": "2026-02-23T04:38:33.085916+00:00", "type": "task_created", "task_id": "task_16a21d48ee2e", "actor": "workflow:demo_exo", "metadata": {"title": "comparison:demo_exo"}}
+{"event_id": "event_83e96ece85", "timestamp": "2026-02-23T04:38:33.086924+00:00", "type": "task_claimed", "task_id": "task_6bbb7b1a344e", "actor": "workflow:demo_llama", "metadata": {}}
+{"event_id": "event_7b4aa1ce75", "timestamp": "2026-02-23T04:38:33.088356+00:00", "type": "task_completed", "task_id": "task_6bbb7b1a344e", "actor": "workflow:demo_llama", "metadata": {}}
+{"event_id": "event_0023f709c8", "timestamp": "2026-02-23T04:38:33.089922+00:00", "type": "task_claimed", "task_id": "task_16a21d48ee2e", "actor": "workflow:demo_exo", "metadata": {}}
+{"event_id": "event_141cc86ecc", "timestamp": "2026-02-23T04:38:33.091214+00:00", "type": "task_completed", "task_id": "task_16a21d48ee2e", "actor": "workflow:demo_exo", "metadata": {}}

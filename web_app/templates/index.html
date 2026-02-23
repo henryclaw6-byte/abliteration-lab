@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liberation Lab</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1>🚀 Liberation Lab</h1>
+    <div class="controls-row">
+      <label class="theme-switch">
+        <input type="checkbox" id="theme-toggle" />
+        <span>Light mode</span>
+      </label>
+      <button id="settings-btn">Model Settings</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="card chat-panel" id="chat-view">
+      <h2>Real-Time Multi-Model Chat</h2>
+      <div class="chat-config-row">
+        <select id="model-select"></select>
+        <span id="connection-status" class="pill">Connecting...</span>
+      </div>
+      <div id="chat-log" class="chat-log"></div>
+      <div id="typing-indicator" class="typing hidden">Model is typing…</div>
+      <div class="chat-input-row">
+        <textarea id="prompt-input" placeholder="Send a prompt to the selected model..."></textarea>
+        <button id="send-btn">Send</button>
+      </div>
+    </section>
+
+    <section class="card analytics-panel" id="analytics-view">
+      <h2>Real-Time Analytics</h2>
+      <div class="gauges" id="gauges"></div>
+      <div class="charts-grid">
+        <div><canvas id="trend-chart"></canvas></div>
+        <div><canvas id="comparison-chart"></canvas></div>
+      </div>
+      <div class="button-row">
+        <button id="export-trend">Export Trend PNG</button>
+        <button id="export-comparison">Export Comparison PNG</button>
+      </div>
+    </section>
+
+    <section class="card batch-panel" id="batch-view">
+      <h2>Batch Prompt Tester</h2>
+      <div class="button-row">
+        <input type="file" id="batch-file" accept=".json,.csv" />
+        <button id="download-sample">Download Sample JSON</button>
+      </div>
+      <textarea id="batch-input" placeholder='Enter prompts, one per line or upload JSON/CSV'></textarea>
+      <div class="button-row">
+        <button id="run-batch">Run Across Models</button>
+        <button id="export-json">Export JSON</button>
+        <button id="export-csv">Export CSV</button>
+      </div>
+      <div class="progress"><div id="batch-progress"></div></div>
+      <div id="batch-results" class="batch-results"></div>
+    </section>
+  </main>
+
+  <nav class="mobile-tabs">
+    <button data-target="chat-view">Chat</button>
+    <button data-target="analytics-view">Analytics</button>
+    <button data-target="batch-view">Batch</button>
+  </nav>
+
+  <div id="settings-modal" class="modal hidden">
+    <div class="modal-content">
+      <h3>Model Configuration Panel</h3>
+      <label>Model
+        <select id="settings-model"></select>
+      </label>
+      <label>Temperature: <span id="temp-value"></span>
+        <input id="temperature" type="range" min="0" max="2" step="0.01" />
+      </label>
+      <label>Top_P: <span id="top-p-value"></span>
+        <input id="top_p" type="range" min="0" max="1" step="0.01" />
+      </label>
+      <label>Max Tokens
+        <input id="max_tokens" type="number" min="1" max="8192" />
+      </label>
+      <label>System Prompt
+        <textarea id="system_prompt"></textarea>
+      </label>
+      <p id="validation-msg"></p>
+      <div class="button-row">
+        <button id="save-presets">Save Presets</button>
+        <button id="close-settings">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script>
+    window.__INITIAL_PRESETS__ = {{ presets | tojson }};
+  </script>
+  <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/socket.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/mobile.js') }}"></script>
+</body>
+</html>

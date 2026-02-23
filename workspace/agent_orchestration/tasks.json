@@ -63,6 +63,22 @@
     "task_id": "task_169b271e12ac",
     "title": "baseline_test:liberated_model_06"
   },
+  "task_16a21d48ee2e": {
+    "completed_at": "2026-02-23T04:38:33.090263+00:00",
+    "created_at": "2026-02-23T04:38:33.085144+00:00",
+    "created_by": "workflow:demo_exo",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "demo_exo",
+      "stage": "comparison"
+    },
+    "status": "completed",
+    "task_id": "task_16a21d48ee2e",
+    "title": "comparison:demo_exo"
+  },
   "task_1711e4be834f": {
     "completed_at": "2026-02-23T04:05:27.780895+00:00",
     "created_at": "2026-02-23T04:05:27.775193+00:00",
@@ -159,6 +175,38 @@
     "task_id": "task_37e5af8af0b5",
     "title": "validation_test:liberated_model_07"
   },
+  "task_3eb0d6e4fcb9": {
+    "completed_at": "2026-02-23T04:38:33.083102+00:00",
+    "created_at": "2026-02-23T04:38:33.078698+00:00",
+    "created_by": "workflow:demo_llama",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "demo_llama",
+      "stage": "validation_test"
+    },
+    "status": "completed",
+    "task_id": "task_3eb0d6e4fcb9",
+    "title": "validation_test:demo_llama"
+  },
+  "task_4199f1e11852": {
+    "completed_at": "2026-02-23T04:38:33.075158+00:00",
+    "created_at": "2026-02-23T04:38:33.070157+00:00",
+    "created_by": "workflow:demo_exo",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "demo_exo",
+      "stage": "abliteration"
+    },
+    "status": "completed",
+    "task_id": "task_4199f1e11852",
+    "title": "abliteration:demo_exo"
+  },
   "task_44a7c54ba855": {
     "completed_at": "2026-02-23T04:05:27.790504+00:00",
     "created_at": "2026-02-23T04:05:27.783939+00:00",
@@ -206,6 +254,38 @@
     "status": "completed",
     "task_id": "task_4fef7fe142b8",
     "title": "comparison:liberated_model_03"
+  },
+  "task_62d623ea8c11": {
+    "completed_at": "2026-02-23T04:38:33.076264+00:00",
+    "created_at": "2026-02-23T04:38:33.071515+00:00",
+    "created_by": "workflow:demo_llama",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "demo_llama",
+      "stage": "abliteration"
+    },
+    "status": "completed",
+    "task_id": "task_62d623ea8c11",
+    "title": "abliteration:demo_llama"
+  },
+  "task_6bbb7b1a344e": {
+    "completed_at": "2026-02-23T04:38:33.087244+00:00",
+    "created_at": "2026-02-23T04:38:33.084092+00:00",
+    "created_by": "workflow:demo_llama",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "demo_llama",
+      "stage": "comparison"
+    },
+    "status": "completed",
+    "task_id": "task_6bbb7b1a344e",
+    "title": "comparison:demo_llama"
   },
   "task_717e01af65f9": {
     "completed_at": "2026-02-23T04:05:27.801690+00:00",
@@ -286,6 +366,22 @@
     "status": "completed",
     "task_id": "task_7ffad656a5bd",
     "title": "validation_test:liberated_model_04"
+  },
+  "task_822a1e9a70b4": {
+    "completed_at": "2026-02-23T04:38:33.082028+00:00",
+    "created_at": "2026-02-23T04:38:33.077480+00:00",
+    "created_by": "workflow:demo_exo",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "demo_exo",
+      "stage": "validation_test"
+    },
+    "status": "completed",
+    "task_id": "task_822a1e9a70b4",
+    "title": "validation_test:demo_exo"
   },
   "task_826abf26dec6": {
     "completed_at": "2026-02-23T04:05:27.803393+00:00",
@@ -479,6 +575,22 @@
     "task_id": "task_bc02fddde57a",
     "title": "abliteration:liberated_model_07"
   },
+  "task_bd0bd2d1d828": {
+    "completed_at": "2026-02-23T04:38:33.067218+00:00",
+    "created_at": "2026-02-23T04:38:33.058172+00:00",
+    "created_by": "workflow:demo_exo",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "demo_exo",
+      "stage": "baseline_test"
+    },
+    "status": "completed",
+    "task_id": "task_bd0bd2d1d828",
+    "title": "baseline_test:demo_exo"
+  },
   "task_bf52406650d6": {
     "completed_at": "2026-02-23T04:05:27.777606+00:00",
     "created_at": "2026-02-23T04:05:27.772462+00:00",
@@ -526,6 +638,22 @@
     "status": "completed",
     "task_id": "task_c9a39be735f9",
     "title": "baseline_test:liberated_model_09"
+  },
+  "task_dd3c67721d2f": {
+    "completed_at": "2026-02-23T04:38:33.068683+00:00",
+    "created_at": "2026-02-23T04:38:33.061847+00:00",
+    "created_by": "workflow:demo_llama",
+    "failure_reason": null,
+    "heartbeat_at": null,
+    "lock_acquired_at": null,
+    "lock_owner": null,
+    "payload": {
+      "model_id": "demo_llama",
+      "stage": "baseline_test"
+    },
+    "status": "completed",
+    "task_id": "task_dd3c67721d2f",
+    "title": "baseline_test:demo_llama"
   },
   "task_e3bdce3d73fc": {
     "completed_at": "2026-02-23T04:05:27.770241+00:00",
